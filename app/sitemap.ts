@@ -1,0 +1,1 @@
+import {MetadataRoute} from 'next';export default function sitemap():MetadataRoute.Sitemap{const base='https://crescentheights.example';return ['','about','academics','admissions','campus-life','news','gallery','downloads','results','contact'].map(x=>({url:`${base}/${x}`,lastModified:new Date()}));}
